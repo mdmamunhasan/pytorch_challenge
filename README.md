@@ -4,3 +4,8 @@
     !wget -cq https://s3.amazonaws.com/content.udacity-data.com/courses/nd188/flower_data.zip
     !rm -r flower_data || true
     !unzip -qq flower_data.zip
+    
+Or
+
+    from google.colab import files
+    uploaded = files.upload()
